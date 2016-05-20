@@ -139,21 +139,4 @@ class BonsEncrypt{
 	}
 	
 }
-/*
-$a = new BonsEncrypt();
-echo "Numbers"."<br/>"."<br/>";
-$val = 123564;
-echo "Value :".$val."<br/>";
-$enc = $a->encryptAsAlphabets($val,9);
-echo "Encrypted value :".$enc."<br/>";
-$dec = $a->decryptAlphabets($enc);
-echo "Decrypted value :".$dec."<br/>"."<br/>";
-echo "Alphabets"."<br/>"."<br/>";
-$val = 123.564;
-echo "Value :".$val."<br/>";
-$enc = $a->encryptAsAlphabets($val,9);
-echo "Encrypted value :".$enc."<br/>";
-$dec = $a->decryptAlphabets($enc);
-echo "Decrypted value :".$dec."<br/>";
-*/
 ?>
