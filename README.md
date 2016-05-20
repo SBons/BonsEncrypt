@@ -3,7 +3,7 @@ PHP based Number encrypt and decrypt plugin, it can encrypt number to number and
 
 
 ###Number Encryption
-```
+```PHP
 $enc = new BonsEncrypt();
 
 $toEncVal = 123564;
@@ -19,7 +19,7 @@ echo "Decrypted Value:".$decryptedVal."<br/>";
 ```
 
 ###Alphabets Encryption
-```
+```PHP
 $enc = new BonsEncrypt();
 
 $toEncVal = 123564;
